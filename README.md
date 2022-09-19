@@ -190,5 +190,17 @@ sudo apt install php8.0-curl
 ```
 
 ```shell
+sudo apt install php8.0-gd
+```
+
+```shell
+sudo apt install php8.0-intl
+```
+
+```shell
 systemctl restart apache2
 ```
+
+Continuamos con los errores de permisos:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191056992-5d50096d-0a3a-47df-82e4-72b56fe101e6.png)</kbd>
