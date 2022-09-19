@@ -152,7 +152,7 @@ chown www-data config
 ```
 
 ```shell
-chown www-data files
+chown www-data:www-data files
 ```
 
 Desde un navegador, accedemos a la URL de nuestro servidor:
@@ -201,6 +201,23 @@ sudo apt install php8.0-intl
 systemctl restart apache2
 ```
 
-Continuamos con los errores de permisos:
+Continuamos con los errores de permisos, que no estaban muy finos de antes:
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191056992-5d50096d-0a3a-47df-82e4-72b56fe101e6.png)</kbd>
+
+```shell
+chown www-data:www-data files
+```
+
+```shell
+chmod -R 755 files
+```
+
+```shell
+systemctl restart apache2
+```
+
+Siguientes errores, calentad, que salís:
+
+
+
