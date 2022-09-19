@@ -159,3 +159,36 @@ Desde un navegador, accedemos a la URL de nuestro servidor:
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191054247-1bf5e278-5997-46d1-adc1-160eae73def0.png)</kbd>
 
+#### Warning - :skull: Sería un buen momento para hacer un Snapshot :eyes:
+
+En la siguiente ventana nos pregunta si vamos a hacer una instalación o una actualización:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191054662-9f933bb2-6a6a-4bed-9f95-371c2033e350.png)</kbd>
+
+Como siempre con estos asistentes de instalación, nos saldrá un listado de compatibilidad que tendremos que ir saneando antes de proseguir con la instalación:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191054938-9cad8ab5-53c4-4fd6-8e19-f53706ff72b7.png)</kbd>
+
+Comenzamos por el principio y vamos arreglando:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191055301-861b3623-32a1-406b-ab8d-66a29a6606db.png)</kbd>
+
+```shell
+sudo apt install php8.0-dom
+```
+
+```shell
+systemctl restart apache2
+```
+
+Siguientes errores:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191056014-438b0ba5-58c7-4474-80ad-36098ca1c30a.png)</kbd>
+
+```shell
+sudo apt install php8.0-curl
+```
+
+```shell
+systemctl restart apache2
+```
