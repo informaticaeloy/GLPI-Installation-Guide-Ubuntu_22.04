@@ -293,6 +293,16 @@ sudo apt install php8.0-iconv
 sudo apt install php8.0-mbstring
 ```
 
+```shell
+sudo systemctl restart apache2
+```
+
 > La extensión sodium se instala aparentemente con alguna de las instalaciones anteriores, ya que con el comando "sudo apt install php8.0-sodium" nos sale un error. Buscando en Google, aparentemente hay que descargarlo a mano , compilar y copiar en su carpeta de destino, pero instalando las otras anteriormente mencionadas, el error de falta de esta extensión desaparece:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191215309-7bbf6c55-c807-4d6c-aa96-cf6ff23cadd8.png)</kbd>
+
+Continuamos con el último warning, los permisos para el directorio /var/www/html/marketplace
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191215757-b7cdf3e7-99a4-4f6a-a92b-97957fd37461.png)</kbd>
 
 
