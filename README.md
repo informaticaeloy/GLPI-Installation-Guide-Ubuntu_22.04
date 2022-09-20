@@ -271,16 +271,28 @@ Instalamos las extensiones que nos faltan (ldap, zip, bz2, ctype, iconv, sodium 
 
 ```shell
 sudo apt install php8.0-ldap
+```
 
+```shell
 sudo apt install php8.0-zip
+```
 
+```shell
 sudo apt install php8.0-bz2
+```
 
+```shell
 sudo apt install php8.0-ctype
+```
 
+```shell
 sudo apt install php8.0-iconv
+```
 
+```shell
 sudo apt install php8.0-mbstring
 ```
+
+> La extensión sodium se instala aparentemente con alguna de las instalaciones anteriores, ya que con el comando "sudo apt install php8.0-sodium" nos sale un error. Buscando en Google, aparentemente hay que descargarlo a mano , compilar y copiar en su carpeta de destino, pero instalando las otras anteriormente mencionadas, el error de falta de esta extensión desaparece:
 
 
