@@ -239,3 +239,30 @@ Reiniciamos apache:
 sudo systemctl restart apache2
 ```
 
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191208104-945bbce7-ab14-4811-a683-95085405b74c.png)</kbd>
+
+Problema solucionado. Vamos a por el siguiente.
+
+Editamos el siguiente fichero
+
+> /etc/php/8.0/apache2/php.ini
+
+```shell
+sudo nano /etc/php/8.0/apache2/php.ini
+```
+
+Y alrededor de la línea 1399, cambiamos "session.cookie_httponly =" por "session.cookie_httponly = On"
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191209677-f8b15ccb-2331-4b04-8a7c-e46205119847.png)</kbd>
+
+Reiniciamos apache:
+
+```shell
+sudo systemctl restart apache2
+```
+
+Problema solucionado. A por el siguiente:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191210081-4d65b0ec-e39b-41fe-a494-d569f1a7cd8c.png)</kbd>
+
+#### Warning - :skull: Sería un buen momento para hacer un Snapshot :eyes:
