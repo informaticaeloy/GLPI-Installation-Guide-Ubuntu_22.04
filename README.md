@@ -267,3 +267,10 @@ Problema solucionado. A por los siguientes:
 
 #### Warning - :skull: Sería un buen momento para hacer un Snapshot :eyes:
 
+Instalamos las extensiones que nos faltan (Ldap, zip, bz2, ctype, iconv, sodium y mbstring)
+
+```shell
+sudo apt install php8.0-ldap
+```
+
+
