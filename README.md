@@ -345,3 +345,25 @@ Nos logueamos como admin con glpi/glpi y nos aparece una advertencia de segurida
 * Eliminar el fichero install/install.php
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191227152-03e361ff-fea8-4ded-853a-fe8d9fc24e03.png)</kbd>
+
+Para eliminar el fichero install/install.php, usamos el comando siguiente:
+
+```shell
+sudo rm /var/www/html/install/install.php
+```
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191227577-088c0823-078c-49cf-bb4b-27462c00ecd9.png)</kbd>
+
+Y para cambiar las contraseñas de los usuarios, en el frontend, vamos al menú "Administración" y dentro de él, "usuarios". Accedemos a cada uno de ellos y cambiamos el password:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191227960-cb5c1057-632a-4e5b-a1a6-e19dc1eae3f9.png)<kbd>
+
+Una vez hecho esto ya no nos sale ninguna advertencia al entrar al panel de control, y podemos comenzar a alimentar nuestro sistemas con usuarios, departamentos, sistemas, redes, ...
+ 
+ <kbd>![image](https://user-images.githubusercontent.com/20743678/191228944-17ebfbeb-022f-4050-95a0-3760bc6a0d31.png)</kbd>
+
+### 5. FIN
+
+ Hacemos un snapshot de nuestra máquina con todo limpio y escoscado y a usarlo
+ 
+ #### Warning - :skull: Haz un Snapshot :eyes:
