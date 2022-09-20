@@ -317,3 +317,14 @@ Refrescamos el navegador de nuestra instalación y voilà, momento satisfactorio
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191221262-42633b49-885e-4b08-aa66-230560344a30.png)</kbd>
 
+Rellenamos los datos de nuestra conexión a la base de datos. EL usuario y contraseña de MySQL lo definimos anteriormente en la instalación de MySQL
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191222258-9f103912-a6cc-4612-9ee7-ba9df91fc5aa.png)</kbd>
+
+Creamos una nueva BD. Yo la he llamado "glpi"
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191222459-d5b0692c-d725-490c-a0e6-1f5b71f1d894.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191222613-fb9dbb9f-ddfc-471d-91fb-0d687b8ad5a3.png)</kbd>
+
+
