@@ -305,4 +305,15 @@ Continuamos con el último warning, los permisos para el directorio /var/www/htm
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191215757-b7cdf3e7-99a4-4f6a-a92b-97957fd37461.png)</kbd>
 
+```shell
+chown www-data:www-data marketplace
+```
+
+```shell
+chmod -R 755 marketplace
+```
+
+Refrescamos el navegador de nuestra instalación y voilà, momento satisfactorio :sunglasses:. Podemos proseguir la instalación con la conciencia tranquila.
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191221262-42633b49-885e-4b08-aa66-230560344a30.png)</kbd>
 
