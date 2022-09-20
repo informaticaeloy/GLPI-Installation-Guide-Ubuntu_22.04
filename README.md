@@ -338,3 +338,10 @@ La instalación nos ofrece la posibilidad de contratar un servicio comercial med
 En el último paso nos muestra un resumen de las contraseñas por defecto para poder empezar a trabajar, las cuales tendremos que modificar por unas personalizadas mediante el frontend, pero es conveniente apuntarlas o tenerlas a mano en los primeros momentos de uso.
 
 </kbd>![image](https://user-images.githubusercontent.com/20743678/191223749-b362f507-d6be-4165-83d3-5e4c54483003.png)</kbd>
+
+Nos logueamos como admin con glpi/glpi y nos aparece una advertencia de seguridad en la que nos recomienda:
+
+* Cambiar la contraseña por defecto de los usuarios: glpi, post-only, tech y normal
+* Eliminar el fichero install/install.php
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191227152-03e361ff-fea8-4ded-853a-fe8d9fc24e03.png)</kbd>
