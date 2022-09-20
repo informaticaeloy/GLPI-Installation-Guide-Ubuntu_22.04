@@ -261,8 +261,9 @@ Reiniciamos apache:
 sudo systemctl restart apache2
 ```
 
-Problema solucionado. A por el siguiente:
+Problema solucionado. A por los siguientes:
 
-<kbd>![image](https://user-images.githubusercontent.com/20743678/191210081-4d65b0ec-e39b-41fe-a494-d569f1a7cd8c.png)</kbd>
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191211107-d50cf4b4-0008-44c7-b72b-48553be2cb86.png)</kbd>
 
 #### Warning - :skull: Sería un buen momento para hacer un Snapshot :eyes:
+
