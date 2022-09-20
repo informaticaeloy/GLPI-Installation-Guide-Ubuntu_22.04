@@ -327,4 +327,11 @@ Creamos una nueva BD. Yo la he llamado "glpi"
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191222613-fb9dbb9f-ddfc-471d-91fb-0d687b8ad5a3.png)</kbd>
 
+Configuramos nuestras preferencias de compartición de datos con GLPI:
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191223003-605e8b81-632b-4df8-b162-a88e366ebbae.png)</kbd>
+
+La instalación nos ofrece la posibilidad de contratar un servicio comercial mediante una URL para la puesta en marcha y/o resolución de errores y bugs
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191223470-56245ef6-dc98-4bdc-b8e5-8d03900e272a.png)</kbd>
 
