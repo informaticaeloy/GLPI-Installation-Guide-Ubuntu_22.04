@@ -219,5 +219,23 @@ systemctl restart apache2
 
 Siguientes errores, calentad, que salís:
 
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191206354-adb88416-5923-4206-9cb2-ac0e0e14204b.png)</kbd>
 
+Editamos el siguiente fichero:
+
+> /etc/apache2/apache2.conf
+
+```shell
+sudo nano /etc/apache2/apache2.conf
+```
+
+Y alrededor de la línea 172, cambiamos "AllowOverride None" por "AllowOverride All"
+
+<kbd>![image](https://user-images.githubusercontent.com/20743678/191207442-511914c8-3221-472e-8532-b04056e7c0bb.png)</kbd>
+
+Reiniciamos apache:
+
+```shell
+sudo systemctl restart apache2
+```
 
