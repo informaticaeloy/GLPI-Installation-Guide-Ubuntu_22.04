@@ -200,6 +200,10 @@ Comenzamos por el principio y vamos arreglando:
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191055301-861b3623-32a1-406b-ab8d-66a29a6606db.png)</kbd>
 
 ```shell
+sudo apt-get install php8.0-mysqli
+```
+
+```shell
 sudo apt install php8.0-dom
 ```
 
