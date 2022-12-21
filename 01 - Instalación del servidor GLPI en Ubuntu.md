@@ -147,11 +147,31 @@ systemctl status mysql.service
 
 Desde su repositorio ofical descargamos el fichero:
 
+https://github.com/glpi-project/glpi/releases/
+
 <kbd>![image](https://user-images.githubusercontent.com/20743678/191053727-2177da39-eb70-4e42-8b25-e64518196073.png)</kbd>
+
+El día de redacción de este manual, la última versión es la 10.0.0.5. Podemos descargarlo con el comando:
+
+```shell
+wget https://github.com/glpi-project/glpi/releases/download/10.0.5/glpi-10.0.5.tgz
+```
+
+```shell
+tar xzvf glpi-10.0.5.tgz
+```
 
 Lo descomprimimos en "Descargas" por ejemplo, y lo copiamos con 'sudo' en /var/www/html
 
-Asignamos permisos de escritura al servidor web a la carpeta 'files' y 'config':
+```shell
+cp -r glpi /var/www/html/
+```
+
+Asignamos permisos de escritura al servidor web a la carpeta 'files' y 'config' dentro de '/var/www/html/glpi':
+
+```shell
+cd /var/www/html/glpi
+```
 
 ```shell
 chown www-data config
