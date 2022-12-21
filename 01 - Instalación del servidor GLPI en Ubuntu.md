@@ -103,6 +103,12 @@ Si nos aparece este error:
 
 <kbd>![image](https://user-images.githubusercontent.com/20743678/190382549-7923d3a9-928b-4ba9-ac7b-1f673b9f3916.png)</kbd>
 
+Tendremos que cerrar el terminal a la brava, del aspa en la esquina. Luego abrimos un nuevo terminal y ejecutamos el comando:
+
+```shell
+sudo su
+```
+
 ```shell
 mysql
 ```
